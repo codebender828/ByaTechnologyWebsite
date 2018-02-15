@@ -1,5 +1,5 @@
 body{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 .spacing {
@@ -14,6 +14,12 @@ body{
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
+/*  Welcome Note    */
+#welcome {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
 
 /* Carousel base class */
 .carousel {
@@ -101,6 +107,12 @@ body{
 ______________________________________________*/
 
 .nav-text {
-    font-family: 'Heebo', sans-serif;
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+/* Language icons */
+.lan-icon {
+    height: 15px;
+    width:15px;
+    margin-right: 5px;
 }
