@@ -108,7 +108,8 @@ ______________________________________________*/
 
 .nav-text {
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 800;
 }
 /* Language icons */
 .lan-icon {
@@ -321,6 +322,13 @@ html {
     margin-bottom: 0;
     padding-bottom: 5px;
 }
+.fa-map-marker {
+    margin-right: 15px;
+}
+.fa-phone {
+    margin-right: 15px;
+}
+
 
 /*      ARTICLES        */
 
@@ -343,8 +351,37 @@ padding-bottom: 10px;
 
 
    /*   THIS IS WHAT WE DO CARDS    */
-
-
+.card-img img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.card-body {
+    margin-top: 20px;
+}
+.levitate {
+    transition: transform .5s;
+}
+.levitate::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s cubic-bezier(0.165,0.84,0.44,1);
+    /*box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.15);*/
+    content:'';
+    opacity: 0;
+    z-index: -1;
+}
+.levitate:hover, .levitate:focus {
+    transform: scale3d(1.006,1.006,1);
+}
+.levitate:hover::after, .levitate:focus::after{
+    opacity: 1;
+}
 
 
 
@@ -363,6 +400,9 @@ padding-bottom: 10px;
     .small-pad {
         margin: 30px;
     }
+    #location {
+        margin-top: 15px;
+    }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -373,6 +413,9 @@ padding-bottom: 10px;
     }
     .small-pad {
         margin: 30px;
+    }
+    #location {
+        margin-top: 15px;
     }
 }
 
