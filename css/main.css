@@ -174,11 +174,6 @@ ______________________________________________*/
     font-size: .875rem;
 }
 
-.card-img-right {
-    height: 100%;
-    border-radius: 0 3px 3px 0;
-}
-
 .flex-auto {
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
@@ -327,70 +322,31 @@ html {
     padding-bottom: 5px;
 }
 
-/* Latest News Area css
-============================================================================================ */
-.l_news_item {
-    -webkit-transition: all 400ms linear 0s;
-    -o-transition: all 400ms linear 0s;
-    transition: all 400ms linear 0s;
+/*      ARTICLES        */
+
+.b_center_title {
+text-align: center;
+padding-bottom: 10px;
+}
+.pb-5, .py-5 {
+     padding-bottom: 0.1rem!important;
+}
+.pt-5, .py-5 {
+     padding-top: 20px!important;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1rem!important;
+}
+.business {
+    margin-bottom: 1rem;
 }
 
-.l_news_item .l_news_img {
-    overflow: hidden;
-}
 
-.l_news_item .l_news_img a {
-    display: block;
-}
+   /*   THIS IS WHAT WE DO CARDS    */
 
-.l_news_item .l_news_img img {
-    -webkit-transition: all 400ms linear 0s;
-    -o-transition: all 400ms linear 0s;
-    transition: all 400ms linear 0s;
-}
 
-.l_news_item .l_news_img img:hover {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-}
 
-.l_news_item .l_news_content {
-    border: 1px solid #ebebeb;
-    border-top: 0px;
-    padding: 30px 35px;
-}
 
-.l_news_item .l_news_content h4 {
-    font-size: 18px;
-    color: #232d37;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    -webkit-transition: all 400ms linear 0s;
-    -o-transition: all 400ms linear 0s;
-    transition: all 400ms linear 0s;
-}
-
-.l_news_item .l_news_content h4:hover {
-    color: #2bc0a4;
-}
-
-.l_news_item .l_news_content p {
-    font-size: 14px;
-    line-height: 26px;
-    color: #51545f;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    padding: 15px 0px 10px 0px;
-}
-
-.l_news_item:hover {
-    -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
-    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
-}
-.p_100 {
-    padding: 100px 0px;
-}
 
 
 
@@ -404,6 +360,9 @@ html {
         padding-left:20px;
         padding-right:20px;
     }
+    .small-pad {
+        margin: 30px;
+    }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -411,6 +370,9 @@ html {
     .footer-brand{
         padding-left: 25px;
         padding-right:25px;
+    }
+    .small-pad {
+        margin: 30px;
     }
 }
 
