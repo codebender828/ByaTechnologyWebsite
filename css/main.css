@@ -1,12 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
+    color: #08507c;
 
+}
+body .titles {
+  color:#295422;
 }
 .spacing {
     padding-left: 20px;
 }
-
-
 
 
 
@@ -110,7 +112,16 @@ ______________________________________________*/
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 800;
+    color:#08507c; !important
+
 }
+.nav-text a {
+  color:#08507c; !important
+}
+.nav-text li a {
+  color:#08507c; !important
+}
+
 /* Language icons */
 .lan-icon {
     height: 15px;
@@ -234,7 +245,8 @@ ______________________________________________*/
 }
 .article-excerpt {
     font-size: 1.2rem;
-    font-family: 'Rufina', serif;;
+    font-family: 'Rufina', serif;
+    color:black;
 }
 
 /*
