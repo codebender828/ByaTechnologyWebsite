@@ -5,9 +5,15 @@ body{
 }
 body .titles {
   color:#295422;
-} 
+}
 .spacing {
     padding-left: 20px;
+}
+footer{
+  background: linear-gradient(rgba(0, 30, 4, 0.9), rgba(0, 0, 0, 0.7)), url(../assets/images/slider-1.png) fixed center center;
+  background-size: cover;
+  color:white;
+  padding-top: 30px;
 }
 
 
@@ -291,7 +297,7 @@ html {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 
-.footer-canvas {
+. {
     background: #295422;
     padding-top: 40px;
     color: white;
@@ -399,9 +405,27 @@ padding-bottom: 10px;
     opacity: 1;
 }
 
+/* === ARTICLE PAGES CSS === */
+.article-jumbotron {
+  background: linear-gradient(rgba(0, 142, 200, 0.4), rgba(0, 0, 0, 0.2)), url(../assets/images/slider-1.png) fixed center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+.article-jumbotron h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+}
+.article-jumbotron p {
+  color: #ffffff;
+  font-size: 15px;
+}/* === End of Article Pages CSS === */
 
 
-
+/* ===  ARTICLE BODY   === */
+.article-body {
+  padding:30px;
+}
 
 
 
@@ -426,6 +450,10 @@ padding-bottom: 10px;
         padding-left: 40px;
         padding-right: 40px;
     }
+    .article-jumbotron h1,.article-jumbotron p {
+      padding-left:30px;
+      padding-right: 30px;
+    }
 
 }
 
@@ -444,13 +472,18 @@ padding-bottom: 10px;
     .side-bar {
         text-align: center;
     }
-    .footer-canvas {
+    . {
         padding-left: 40px;
         padding-right: 40px;
     }
-
+    .article-jumbotron h1, .article-jumbotron p {
+      padding-left:60px;
+      padding-right: 30px;
+    }
 
 }
+
+
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -458,6 +491,11 @@ padding-bottom: 10px;
         padding-left:30px;
         padding-right:30px;
     }
+    .article-jumbotron h1, .article-jumbotron p {
+      padding-left:60px;
+      padding-right: 30px;
+    }
+
 
 
 }
