@@ -16,8 +16,6 @@ footer{
   padding-top: 30px;
 }
 
-
-
 /*  CAROUSEL CSS    */
 
 /* CUSTOMIZE THE CAROUSEL
@@ -119,12 +117,13 @@ ______________________________________________*/
     font-size: 16px;
     font-weight: 800;
     color:#08507c; !important
-    color: ;
-
+/* <<<<<<< client_portal */
 }
 .nav-text a {
   color:#08507c; !important
 }
+
+/* >>>>>>> master */
 .nav-text li a {
   color:#08507c; !important
 }
