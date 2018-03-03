@@ -15,8 +15,11 @@ footer{
   color:white;
   padding-top: 30px;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 
 /*  CAROUSEL CSS    */
 
@@ -119,12 +122,18 @@ ______________________________________________*/
     font-size: 16px;
     font-weight: 800;
     color:#08507c; !important
+<<<<<<< HEAD
     /* color: ; */
 
+=======
+/* <<<<<<< client_portal */
+>>>>>>> origin/master
 }
 .nav-text a {
   color:#08507c; !important
 }
+
+/* >>>>>>> master */
 .nav-text li a {
   color:#08507c; !important
 }
@@ -424,7 +433,11 @@ padding-bottom: 10px;
 .article-jumbotron {
   background: linear-gradient(rgba(0, 142, 200, 0.4), rgba(0, 0, 0, 0.2)), url(../assets/images/slider-1.png) fixed center center;
   background-size: cover;
+<<<<<<< HEAD
   padding: 90px 0;
+=======
+  padding: 100px 0;
+>>>>>>> origin/master
 }
 .article-jumbotron h1 {
   color: #ffffff;
@@ -469,6 +482,7 @@ padding-bottom: 10px;
       padding-left:30px;
       padding-right: 30px;
     }
+<<<<<<< HEAD
     .article-jumbotron h1 {
       font-size: 45px;
     }
@@ -481,6 +495,8 @@ padding-bottom: 10px;
     .social-media .social-row {
       font-size: 45px;
     }
+=======
+>>>>>>> origin/master
 
 }
 
@@ -507,12 +523,15 @@ padding-bottom: 10px;
       padding-left:60px;
       padding-right: 30px;
     }
+<<<<<<< HEAD
     .social-media h5 {
       font-size: 30px;
     }
     .social-media .social-row {
       font-size: 45px;
     }
+=======
+>>>>>>> origin/master
 
 }
 
