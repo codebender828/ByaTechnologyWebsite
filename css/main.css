@@ -235,12 +235,19 @@ ______________________________________________*/
 .blog-pagination > .btn {
     border-radius: 2rem;
 }
+.field-group {
+  margin:20px 0;
+}
+#location h5 {
+  font-size: 1.5em;
+}
 
 /*
  * Blog posts
  */
 .blog-post {
-    margin-bottom: 4rem;
+    margin: 1rem 0 4rem 3.5rem;
+
 }
 .blog-post-title {
     margin-bottom: .25rem;
@@ -312,6 +319,11 @@ html {
 }
 
 /*  SOCIAL MEDIA ICONS  */
+.social-media {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
 .social-row {
     list-style: none;
     font-size: 35px;
@@ -349,6 +361,9 @@ html {
 }
 .fa-envelope {
     margin-right: 15px;
+}
+.social-media ul .country {
+  font-size: 17px;
 }
 
 
@@ -460,6 +475,12 @@ padding-bottom: 10px;
     .article-jumbotron {
       padding:40px 0;
     }
+    .social-media h5 {
+      font-size: 30px;
+    }
+    .social-media .social-row {
+      font-size: 45px;
+    }
 
 }
 
@@ -485,6 +506,12 @@ padding-bottom: 10px;
     .article-jumbotron h1, .article-jumbotron p {
       padding-left:60px;
       padding-right: 30px;
+    }
+    .social-media h5 {
+      font-size: 30px;
+    }
+    .social-media .social-row {
+      font-size: 45px;
     }
 
 }
